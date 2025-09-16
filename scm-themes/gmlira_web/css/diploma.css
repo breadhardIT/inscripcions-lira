@@ -1,0 +1,19 @@
+/* General */
+	body {background-color: transparent; color: #555; }
+	#nom {width:100%; margin-top: 23.4%; margin-left: 5%; height:50px;}	
+	#hora {margin-top:10.0%;  margin-left: 53.0%; height:50px; position: absolute;}      
+	#minuts {margin-top:10.0%;  margin-left: 62.0%; height:50px; position: absolute;}      	
+	
+/* Contenido */
+   H1 {font-size: 24pt; font-weight: bold; color: #000000; text-align:center; font-family: 'Viner Hand ITC';}
+   H2 {font-size: 28pt; font-weight: bold; color: #333; text-align:center; font-family: 'Viner Hand ITC';  text-transform: uppercase;}
+   H3 {font-size: 22pt; font-weight: bold; color: #333; font-family: 'Viner Hand ITC';}   
+   H4 {font-size: 16pt; color: #000000; text-align:right; font-family: 'Viner Hand ITC';padding: 0px;clear: both;}      
+
+   
+ /* impressio
+150 ppp (baja calidad): 1240x1754
+300 ppp (calidad normal): 2480x3508
+600 ppp (alta calidad): 4971x7016 
+ background:url("../images/diploma.jpg") no-repeat transparent;
+*/

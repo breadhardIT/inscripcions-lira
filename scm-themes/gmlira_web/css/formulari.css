@@ -1,0 +1,605 @@
+/********************************************
+   HTML ELEMENTS
+********************************************/
+
+/* title */
+h4, h5, h6 {
+    margin-top: 8px;
+    margin-bottom: 1px;
+}
+
+p.error {
+	color: #CC0033;
+}
+
+/* images */
+img.float-right {
+	margin: 5px 0px 10px 10px;
+}
+
+img.float-left {
+	margin: 5px 10px 10px 0px;
+}
+
+code {
+	margin: 5px 0;
+	padding: 10px;
+	text-align: left;
+	display: block;
+	overflow: auto;
+	font: 500 1em/ 1.5em 'Lucida Console', 'courier new', monospace;
+	/* white-space: pre; */
+	background: #FAFAFA;
+	border: 1px solid #EAEAEA;
+	border-left: 5px solid #72A545;
+}
+
+acronym {
+	cursor: help;
+	border-bottom: 1px solid #777;
+}
+
+blockquote {
+	margin: 15px;
+	padding: 0 0 0 32px;
+	background: #FAFAFA url(quote.gif) no-repeat 5px 10px !important;
+	background-position: 8px 10px;
+	border: 1px solid #EAEAEA;
+	border-left: 5px solid #72A545;
+	font-weight: bold;
+}
+
+/* form elements */
+#content {
+    box-shadow: 0 0 3px #999999;
+}
+
+#sidebar {
+    color: #333333;
+    float: right;
+    width: 23.48%;
+}
+
+fieldset {
+	margin: 12px 12px 18px;
+	padding-left: 6px;
+	border: 1px solid #004080;
+	color: #006699;
+}
+
+fieldset fieldset {
+	border: 1px solid #9ea190;
+	margin: 17px 14px;
+}
+
+form {
+	margin: 10px 15px;
+	padding: 0;
+}
+
+label {
+	font-weight: bold;
+	margin: 5px 3px 0 0;
+	width: 190px;
+	text-align: right;
+	float: left;
+}
+
+legend {
+	font-size: 1.2em;
+	padding: 0 12px;
+	font-weight: 900;
+	background-color: #F9F9F9;
+}
+
+fieldset fieldset legend {
+	font-size: 1em;
+	color: #1a2129;
+	padding: 0 18px;
+	margin-left: 75px;
+}
+
+input {
+	background: #F4FAEB;
+        padding: 2px;
+	border: 1px solid #099;
+        box-shadow: 0 1px 3px #099;        
+}
+
+input[type="text"]
+{
+	background: #F4FAEB;
+        padding: 2px;
+	border: 1px solid #099;       
+        box-shadow: 0 1px 3px #099;                
+}
+
+input:disabled {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: 1px solid #AAAAAA;
+    box-shadow: 0 1px 3px #AAAAAA;
+    padding: 2px;       
+}
+
+input[type="text"]:disabled {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: 1px solid #AAAAAA;
+    box-shadow: 0 1px 3px #AAAAAA;
+    padding: 2px;       
+}
+
+textarea {
+	width: 400px;
+	padding: 4px;
+	font: normal 1em Verdana, sans-serif;
+	border: 1px solid #eee;
+	height: 100px;
+	display: block;
+	color: #777;
+}
+
+input.button {
+	margin: 0;
+	font: bold 12px Arial, Sans-serif;
+	border: 1px solid #EAEAEA;
+	padding: 3px 4px;
+	background: #CCC url(buttonbg.gif) repeat-x left bottom;
+	color: #333; /* color: #339900; */
+	cursor: pointer;
+}
+
+input.submitbutton {
+	background-color: #006699;
+	color: #FFF;
+	background-image: none;
+	font-weight: 900;
+	border: 1px solid #EAEAEA;
+	margin: 0 0 0 200px;
+}
+
+
+/*****************************
+      LAYOUT 
+******************************/
+#wrap {
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	background-color: #FFF;
+	width: 790px;
+}
+
+#content-wrap {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 790px;
+}
+
+/* main content */
+#main {
+
+}
+
+#main h1 {
+	text-transform: none;
+	color: #fff;
+}
+
+/* alignment classes */
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+/* additional classes */
+.clear {
+	clear: both;
+}
+
+.hide {
+	display: none;
+}
+
+.gray {
+	color: #CCC;
+}
+
+.comments {
+	color: #333;
+	background: #FFF;
+	text-align: right;
+	border-top: 1px dashed #EFF0F1;
+	border-bottom: 1px dashed #EFF0F1;
+	padding: 5px 0;
+	margin-top: 20px;
+}
+
+/* ------ one ------------*/
+
+#demoText h1,.mainText h1 {
+	font-size: 130%;
+	color: #0099FF;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 5px 4px 5px 24px;
+	background: none;
+	padding: 0;
+	border: none;
+	text-transform: capitalize;
+}
+
+.mainText h2 {
+	font-size: 110%;
+	color: #000033;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	background: none;
+	margin: 4px 32px 6px 22px;
+	text-transform: capitalize;
+}
+
+.mainText h3 {
+	font-size: 120%;
+	font-weight: 900;
+	margin: 14px 0 0 0;
+	text-align: center;
+	color: #000033;
+}
+
+.mainText table {
+	width: 95%;
+	border: 1px solid #0099FF;
+	border-collapse: collapse;
+	margin: 18px 7px;
+}
+
+.mainText table td {
+	background-color: #99CCFF;
+	color: #000033;
+	padding: 4px;
+}
+
+.mainText table th {
+	background-color: #000033;
+	color: #99CCFF;
+	padding: 4px;
+}
+
+.mainText .linkPar a {
+	color: #000033;
+	text-decoration: underline;
+}
+
+.mainText .linkPar a:hover {
+	color: #660033;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+.pusher {
+	cursor: pointer;
+	padding: 3px 10px 3px 22px;
+	font-weight: 900;
+	font-size: 14px;
+}
+
+/* ------------- form specific styles are here  -------------- */
+fieldset {
+	margin: 0;
+	border: 1px solid #C3DE00;
+	padding: 10px;
+	color: #7563A5;
+}
+
+legend {
+	background-color: #FFFFFF;
+	text-align: center;
+	color: #097981;
+	padding: 0 12px;
+}
+
+label {
+	text-align: right;
+	width: 190px;
+	border-right: 1px dotted #099;
+	padding-right: 5px;
+	margin: 0 0 8px 0;
+	float: left;
+	clear: left;
+	display: block;
+	color: #004080;
+}
+
+label.checkbox,label.textarea {
+	border: none;
+}
+
+label.lgfield {
+	border: none;
+	text-align: center;
+	clear: both;
+	float: none;
+	width: 100%;
+}
+
+fieldset input,fieldset select,fieldset textarea {
+	margin-left: 10px;
+	margin-bottom: 8px;
+}
+
+select.longfield {
+	margin: 0 0 0 115px;
+}
+select {
+    background: none repeat scroll 0 0 #F4FAEB;
+    border: 1px solid #099;
+    box-shadow: 0 1px 3px #099;    
+    padding:2px;
+}
+
+select:disabled {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: 1px solid #AAAAAA;
+    box-shadow: 0 1px 3px #AAAAAA;
+    padding: 2px;       
+}
+
+input [type="radio"],input [type="checkbox"] {
+	margin: 2px 0 0 4px;
+}
+
+textarea {
+	width: 250px;
+	float: left;
+}
+
+/*Get Help Form Styles*/
+p.formDisclaimer {
+	text-align: center;
+	margin: 32px 24px 12px 0;
+	font-style: italic;
+}
+
+div.buttonWrapper {
+	margin: -20px 0 14px 0;
+	clear: both;
+	text-align: right;
+}
+
+.formspacer {
+	height: 1em;
+	clear: both;
+	border-top: 1px dotted #C3DE00;
+}
+
+.hideField {
+	display: none;
+}
+
+.pushOpen {
+	height: 18em;
+}
+
+/* ----- error message for field validation ----- */
+#formID label.error {
+	text-align: left;
+	width: auto;
+	padding: 0;
+	margin: 0 0 0 10px;
+	float: none;
+	clear: none;
+	display: inline-block;
+	color: red;
+	font-size: 9px;
+	font-weight: normal;
+	border: none;
+	border-top: 1px dotted #CC3366;
+}
+
+input.error {
+    border: 1px dotted red;
+}
+
+div.requiredNotice {
+	width: 140px;
+	float: right;
+	margin: 0 24px 0 0;
+	padding: 0;
+}
+
+h3.stepHeader {
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 0 24px 24px;
+	color: #004080;
+}
+
+ul#stepForm,ul#stepForm li {
+	margin: 0;
+	padding: 0;
+}
+
+ul#stepForm li {
+	list-style: none;
+}
+
+/* Form Buttons  */
+input.submitbutton,.nextbutton,.prevbutton {
+	width: 123px;
+	height: 40px;
+	background-color: #663399;
+	padding: 4px;
+	border: 1px solid #339933;
+	cursor: pointer;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 7px;
+}
+
+input.submitbutton {
+	background-color: #006699;
+}
+
+.page-entry-content { 
+	padding: 1.5em 2% 2%;
+	background: #fff;
+	border: 1px solid #e6e7e8;
+}
+
+#LOPD {
+    color: #7563A5;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 9px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 15px;
+    position: relative;
+    text-align: justify;
+}
+
+
+/* PREU */   
+.preu {
+   border: 1px dotted #004080;
+   color: #7563A5;
+   position:absolute; 
+   font-weight: normal; 
+   padding-right:20px; 
+   margin: 10px 15px; 
+   width:200px; 
+   top:95%;
+   left:58%;
+}
+.titolpreu {
+   color: #7563A5;
+   position:absolute; 
+   font-weight: bold; 
+   padding-right:20px; 
+   margin: 10px 15px; 
+   width:200px; 
+   top:90%;
+   left:58%;
+}
+.right {
+   text-align: right;
+}
+/* missatges */
+.missatgeconfirmacio{
+   border: 1px dotted #004080;
+   color: #FFF;
+   position:absolute; 
+   font-weight: bold; 
+   text-align: center;
+   width:200px; 
+   top:23%;
+   left:58%;
+   background: none repeat scroll 0 0 #1DAA3D;
+}	
+.missatgeconfirmacioerror{
+   border: 1px dotted #004080;
+   color: #7563A5;
+   position:absolute; 
+   font-weight: bold; 
+   text-align: center;
+   width:200px; 
+   top:23%;
+   left:58%;
+   background: none repeat scroll 0 0 #FF0000;
+}
+.missatgedata{
+   border: 1px dotted #004080;
+   color: #FFF;
+   position:absolute; 
+   font-weight: bold; 
+   text-align: center;
+   width:300px; 
+   top:3%;
+   background: none repeat scroll 0 0 #1DAA3D;
+}
+
+#missatgeavis{
+   color: #FFF;
+}
+#mesinfo{
+   color: #FFF;
+   float:left;
+   width: 350px;
+}
+
+/* calendar */
+input.calendar {
+	background: url("../images/calendar/calendar.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+/* banner*/
+#banner {
+	background: url("../img/background_slider.jpg") no-repeat scroll 0 0 transparent;	
+	height: 251px;
+    overflow: hidden;
+    position: relative;
+}
+#banner img{
+	border-radius: 5px 5px 5px 5px;
+    display: block;
+    float: left;
+    height: 190px;
+    left: 65px;
+    margin: 2px;
+    opacity: 1;
+    position: absolute;
+    top: 15px;
+    z-index: 3;
+}
+#banner p{
+	font-size: 8pt;
+    margin-left: 330px;
+    margin-top: 20px;
+    width: 350px;
+	height: 180px;
+	padding: 0 15px;	
+}
+
+#contentdades {
+	padding: 0 15px;	
+}
+
+.importpaypal {
+	padding: 3px;
+	border: 1px solid #099;
+	font: normal 1em Verdana, sans-serif;
+	color: #999;
+	background: #F4FAEB;
+	font-size: 10pt;
+	font-weight: normal;	
+}
+
+#mapa {
+	padding: 10px 25px;	
+}
+
+.colaborador {padding: 5px 0 0 5px; height:105px;}
+.colaborador {background-color: #f5f5f5;}
+.colaborador .text {padding: 0 0 0 10px; font-size:10px;}
+.colaborador .image_colaborador {height: 55px;  float: left; margin: 10px 0 0 7px; overflow: hidden; cursor: pointer;}
+.colaborador .image_colaborador img {border-radius:10px; width:70px; height:50px; border:1px solid #999999;}
+.colaborador .image_colaborador_width {height: 55px;  float: left; margin: 10px 0 0 7px; overflow: hidden; cursor: pointer;}
+.colaborador .image_colaborador_width img {border-radius:10px; width:140px; height:50px; border:1px solid #999999;}

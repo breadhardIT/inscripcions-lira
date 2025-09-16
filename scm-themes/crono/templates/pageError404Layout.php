@@ -1,0 +1,1 @@
+<section class="content">        <div class="page-title pad group">            <h1><i class="fa fa-exclamation-circle"></i>Error 404. <span>Pàgina no trobada!</span></h1>        </div>	<div class="pad group">				<div class="entry">                    <p><?php echo $contenido; ?></p>		</div>	</div><!--/.pad--></section><!--/.content-->

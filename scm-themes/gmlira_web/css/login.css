@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-may-2014, 8:35:40
+    Author     : 0001553
+*/
+
+*{
+    font-size: 14px;
+}
+
+form.login {
+    background: none repeat scroll 0 0 #F1F1F1;
+    border: 1px solid #DDDDDD;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    width: 378px;
+    margin-top:100px;
+}
+
+form.login div {
+    overflow: hidden;
+}
+
+form.login div label {
+    font-size: 12px;
+    display: block;
+    float: left;
+}
+
+form.login div input[type="text"], form.login div input[type="password"] {
+    border: 1px solid #DCDCDC;
+    float: left;
+    padding: 8px;
+    margin-bottom: 15px;	
+}
+
+form.login div input[type="submit"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;
+    display: block;	
+    float: right;
+    font-weight: bold;
+    padding: 4px 20px;
+}
+
+form.login div h1 {
+	font-size: 16pt; 
+	font-weight: bold; 
+	color: #004080; 
+	font-family: Lucida Handwriting; 
+	padding-right:2px; 
+	margin-top:10px;
+	text-align: center;
+}
+
+form.login div img.icons {
+float: left;
+margin-right:8px;
+}
+
+form.login div img.logo {
+float:left;
+margin-left:5px;
+margin-bottom:30px;
+}

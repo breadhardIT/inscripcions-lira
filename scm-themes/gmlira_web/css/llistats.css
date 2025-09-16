@@ -1,0 +1,39 @@
+/* Tablas */
+   table {margin-bottom: 0; }
+   td {vertical-align: top;}
+   
+   TH {font-size: 10pt; font-weight: bold; color: black; background: #C6D7E4; text-align: center;}
+   TH.normal {font-size: 10pt; font-weight: bold; color: black; background: #FFFFFF; text-align: center;}   
+   TR.resaltat {background: #F4F5F6;}
+   TR.resaltar {background: #F2DCDB; cursor: pointer;}   
+   TR.normal {background: #FFF;}
+   TD {font-size: 8pt;}
+   TD.derecha {font-size: 8pt; text-align: right;}
+   TD.centro {font-size: 8pt; text-align: center;}
+   TD.izquierda {font-size: 8pt; text-align: left; padding-left: 5px;}
+   TD.remarcat {color: #FF0000;}
+   TD.resaltat {background: #F4F5F6; height:12px;}
+   TD.normal {background: #FFF; height:20px;}   
+   TD.balans {background: #F2DCDB; height:12px;}      
+   TD.pressupost {background: #A0A0A0; height:12px; color: white;font-weight: bold; }         
+   TD.separador {background: #D7E7F5; font-size: 0.4em;}   
+   TD.separadorBlanc {background: #FFFFFF; font-size: 0.4em;} 
+   TD.separadorLineaH {border-bottom: 1px dotted #AAB4BE; height: 2px;}      
+   TD.requadre  {border: 1px dotted #0066CC; color: black; font-size: 8pt; padding-bottom: 0.1em; }   
+   TD.vermell {color: #FF0000;}   
+   TD.blau {color: #226699;}      
+   TD.verd {color: #1DAA3D;}
+   TD.total {font-size: 8pt;}
+   TD.mayuscules {text-transform: uppercase;}
+
+/* criteris de cerca */   
+.borde {border: 1px dotted #0066CC; margin:0.1px; padding: 4px; width: 99%;}   
+.boto { border-color: #B7B7B7; border-style: solid; border-width: 1px; color: #333333; padding: 2px 11px; text-decoration: none; font-family: Arial,Helvetica,sans-serif; font-size: 11px; font-weight: normal;}   
+.apartadosficha {color: #3F5AA1; font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold; background:#FFF; margin-left:5px; padding-left:3px;}      
+
+/* images */   
+.imgnoborder {border:0;}
+
+/* formularis */
+   P.etiqueta {font-weight: bold; color: #3F5AA1; text-align:left; border:0; clear: left; padding-top: 0.3em;}
+   .mayuscules {text-transform: uppercase;}

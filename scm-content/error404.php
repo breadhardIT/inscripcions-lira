@@ -1,0 +1,1 @@
+<?php ob_start(); ?>La pàgina a la que has intentat accedir no existeix o ha estat canviada d'ubicació. Si us plau, usa els menús o la recerca per trobar la pàgina que busques.<?php $contenido = ob_get_clean() ?><?php include APP_PATH_ABS.APP_PATH_THEME.APP_THEME. 'templates/pageError404Layout.php'  // plantilla general de la pàgina ?> 
