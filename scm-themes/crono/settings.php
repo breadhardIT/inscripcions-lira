@@ -14,6 +14,6 @@ else {
     define('SCM_DB_NAME', 'gmlira_inscripcions');   // El nombre de tu base de datos de WordPress 
     define('SCM_DB_USER', 'gmlira');          // Tu nombre de usuario de MySQL 
     define('SCM_DB_PASSWORD', 'EpnF4T3C2dB9nEjf');        // Tu contraseña de MySQL
-    define('SCM_DB_HOST', 'mysql.gmlira.cat');           // Host de MySQL (es muy probable que no necesites cambiarlo) 
+    define('SCM_DB_HOST', ' mysql.tecnofirm.net');           // Host de MySQL (es muy probable que no necesites cambiarlo) 
 }
 ?>
